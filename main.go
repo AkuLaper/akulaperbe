@@ -1,7 +1,7 @@
 package gocroot
 
 import (
-	"github.com/gocroot/route"
+	"github.com/AkuLaper/akulaperbe/route"
 
 	"github.com/GoogleCloudPlatform/functions-framework-go/functions"
 )

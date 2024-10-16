@@ -3,10 +3,10 @@ package report
 import (
 	"strconv"
 
-	"github.com/gocroot/helper/atapi"
-	"github.com/gocroot/helper/atdb"
-	"github.com/gocroot/helper/whatsauth"
-	"github.com/gocroot/model"
+	"github.com/AkuLaper/akulaperbe/helper/atapi"
+	"github.com/AkuLaper/akulaperbe/helper/atdb"
+	"github.com/AkuLaper/akulaperbe/helper/whatsauth"
+	"github.com/AkuLaper/akulaperbe/model"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 )

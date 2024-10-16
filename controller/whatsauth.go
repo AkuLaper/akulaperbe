@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/gocroot/config"
-	"github.com/gocroot/helper/at"
-	"github.com/gocroot/helper/atdb"
-	"github.com/gocroot/helper/report"
-	"github.com/gocroot/helper/whatsauth"
-	"github.com/gocroot/model"
+	"github.com/AkuLaper/akulaperbe/config"
+	"github.com/AkuLaper/akulaperbe/helper/at"
+	"github.com/AkuLaper/akulaperbe/helper/atdb"
+	"github.com/AkuLaper/akulaperbe/helper/report"
+	"github.com/AkuLaper/akulaperbe/helper/whatsauth"
+	"github.com/AkuLaper/akulaperbe/model"
 	"github.com/whatsauth/itmodel"
 	"go.mongodb.org/mongo-driver/bson"
 )

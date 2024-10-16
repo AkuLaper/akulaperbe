@@ -1,8 +1,8 @@
 package lms
 
 import (
-	"github.com/gocroot/config"
-	"github.com/gocroot/helper/atapi"
+	"github.com/AkuLaper/akulaperbe/config"
+	"github.com/AkuLaper/akulaperbe/helper/atapi"
 )
 
 func GetNamadanDesaFromAPI(phonenumber string) (namadandesa string) {

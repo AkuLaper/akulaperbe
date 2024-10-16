@@ -4,8 +4,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/gocroot/helper/atdb"
-	"github.com/gocroot/model"
+	"github.com/AkuLaper/akulaperbe/helper/atdb"
+	"github.com/AkuLaper/akulaperbe/model"
 	"github.com/whatsauth/itmodel"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"

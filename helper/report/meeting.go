@@ -7,8 +7,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/gocroot/helper/atdb"
-	"github.com/gocroot/model"
+	"github.com/AkuLaper/akulaperbe/helper/atdb"
+	"github.com/AkuLaper/akulaperbe/model"
 	"github.com/raykov/gofpdf"
 	"go.mongodb.org/mongo-driver/mongo"
 )

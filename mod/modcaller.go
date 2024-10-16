@@ -1,17 +1,17 @@
 package mod
 
 import (
-	"github.com/gocroot/mod/daftar"
-	"github.com/gocroot/mod/helpdesk"
-	"github.com/gocroot/mod/idgrup"
-	"github.com/gocroot/mod/kyc"
-	"github.com/gocroot/mod/lms"
-	"github.com/gocroot/mod/lmsdesa"
-	"github.com/gocroot/mod/posint"
-	"github.com/gocroot/mod/presensi"
-	"github.com/gocroot/mod/siakad"
-	"github.com/gocroot/mod/tasklist"
-	"github.com/gocroot/mod/unsubscribe"
+	"github.com/AkuLaper/akulaperbe/mod/daftar"
+	"github.com/AkuLaper/akulaperbe/mod/helpdesk"
+	"github.com/AkuLaper/akulaperbe/mod/idgrup"
+	"github.com/AkuLaper/akulaperbe/mod/kyc"
+	"github.com/AkuLaper/akulaperbe/mod/lms"
+	"github.com/AkuLaper/akulaperbe/mod/lmsdesa"
+	"github.com/AkuLaper/akulaperbe/mod/posint"
+	"github.com/AkuLaper/akulaperbe/mod/presensi"
+	"github.com/AkuLaper/akulaperbe/mod/siakad"
+	"github.com/AkuLaper/akulaperbe/mod/tasklist"
+	"github.com/AkuLaper/akulaperbe/mod/unsubscribe"
 	"github.com/whatsauth/itmodel"
 	"go.mongodb.org/mongo-driver/mongo"
 )

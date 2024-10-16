@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gocroot/config"
-	"github.com/gocroot/helper/atdb"
+	"github.com/AkuLaper/akulaperbe/config"
+	"github.com/AkuLaper/akulaperbe/helper/atdb"
 )
 
 var mongoinfo = atdb.DBInfo{

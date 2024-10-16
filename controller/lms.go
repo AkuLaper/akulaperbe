@@ -3,10 +3,10 @@ package controller
 import (
 	"net/http"
 
-	"github.com/gocroot/config"
-	"github.com/gocroot/helper/at"
-	"github.com/gocroot/helper/lms"
-	"github.com/gocroot/model"
+	"github.com/AkuLaper/akulaperbe/config"
+	"github.com/AkuLaper/akulaperbe/helper/at"
+	"github.com/AkuLaper/akulaperbe/helper/lms"
+	"github.com/AkuLaper/akulaperbe/model"
 )
 
 func GetCountDocUser(w http.ResponseWriter, r *http.Request) {

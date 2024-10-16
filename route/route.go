@@ -3,9 +3,9 @@ package route
 import (
 	"net/http"
 
-	"github.com/gocroot/config"
-	"github.com/gocroot/controller"
-	"github.com/gocroot/helper/at"
+	"github.com/AkuLaper/akulaperbe/config"
+	"github.com/AkuLaper/akulaperbe/controller"
+	"github.com/AkuLaper/akulaperbe/helper/at"
 )
 
 func URL(w http.ResponseWriter, r *http.Request) {

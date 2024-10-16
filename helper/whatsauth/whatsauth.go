@@ -3,18 +3,18 @@ package whatsauth
 import (
 	"strings"
 
-	"github.com/gocroot/helper/atapi"
-	"github.com/gocroot/helper/atdb"
-	"github.com/gocroot/helper/hub"
-	"github.com/gocroot/helper/kimseok"
-	"github.com/gocroot/helper/lms"
-	"github.com/gocroot/helper/menu"
-	"github.com/gocroot/helper/normalize"
-	"github.com/gocroot/helper/tiket"
+	"github.com/AkuLaper/akulaperbe/helper/atapi"
+	"github.com/AkuLaper/akulaperbe/helper/atdb"
+	"github.com/AkuLaper/akulaperbe/helper/hub"
+	"github.com/AkuLaper/akulaperbe/helper/kimseok"
+	"github.com/AkuLaper/akulaperbe/helper/lms"
+	"github.com/AkuLaper/akulaperbe/helper/menu"
+	"github.com/AkuLaper/akulaperbe/helper/normalize"
+	"github.com/AkuLaper/akulaperbe/helper/tiket"
 
-	"github.com/gocroot/mod"
+	"github.com/AkuLaper/akulaperbe/mod"
 
-	"github.com/gocroot/helper/module"
+	"github.com/AkuLaper/akulaperbe/helper/module"
 	"github.com/whatsauth/itmodel"
 
 	"go.mongodb.org/mongo-driver/bson"

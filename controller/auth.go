@@ -8,12 +8,12 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/gocroot/config"
-	"github.com/gocroot/helper/at"
-	"github.com/gocroot/helper/atdb"
-	"github.com/gocroot/helper/auth"
-	"github.com/gocroot/helper/watoken"
-	"github.com/gocroot/model"
+	"github.com/AkuLaper/akulaperbe/config"
+	"github.com/AkuLaper/akulaperbe/helper/at"
+	"github.com/AkuLaper/akulaperbe/helper/atdb"
+	"github.com/AkuLaper/akulaperbe/helper/auth"
+	"github.com/AkuLaper/akulaperbe/helper/watoken"
+	"github.com/AkuLaper/akulaperbe/model"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
@@ -268,7 +268,7 @@ func VerifyPasswordHandler(respw http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-    // Implementasi rate limiting
+	// Implementasi rate limiting
 	limiter := rl.GetLimiter(request.PhoneNumber)
 	if !limiter.Allow() {
 		var respn model.Response

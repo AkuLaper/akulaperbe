@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/gocroot/config"
-	"github.com/gocroot/helper/at"
-	"github.com/gocroot/helper/atdb"
-	"github.com/gocroot/helper/ghupload"
-	"github.com/gocroot/helper/watoken"
-	"github.com/gocroot/model"
+	"github.com/AkuLaper/akulaperbe/config"
+	"github.com/AkuLaper/akulaperbe/helper/at"
+	"github.com/AkuLaper/akulaperbe/helper/atdb"
+	"github.com/AkuLaper/akulaperbe/helper/ghupload"
+	"github.com/AkuLaper/akulaperbe/helper/watoken"
+	"github.com/AkuLaper/akulaperbe/model"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

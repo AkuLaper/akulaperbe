@@ -8,11 +8,11 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/gocroot/config"
-	"github.com/gocroot/helper/at"
-	"github.com/gocroot/helper/atapi"
-	"github.com/gocroot/helper/whatsauth"
-	"github.com/gocroot/model"
+	"github.com/AkuLaper/akulaperbe/config"
+	"github.com/AkuLaper/akulaperbe/helper/at"
+	"github.com/AkuLaper/akulaperbe/helper/atapi"
+	"github.com/AkuLaper/akulaperbe/helper/whatsauth"
+	"github.com/AkuLaper/akulaperbe/model"
 	"golang.org/x/crypto/bcrypt"
 	"golang.org/x/time/rate"
 	"google.golang.org/api/idtoken"
@@ -68,26 +68,22 @@ func HashPassword(password string) (string, error) {
 }
 
 func SendWhatsAppPassword(respw http.ResponseWriter, phoneNumber string, password string) {
-    // Prepare WhatsApp message
-    dt := &whatsauth.TextMessage{
-        To:      phoneNumber,
-        IsGroup: false,
-        Messages: "Hi! Your login password is: *" + password + "*.\n\n" +
-        "Enter this password on the STP page within 4 minutes. The password will expire after that. " +
-        "To copy the password, press and hold the password.",
-    }
+	// Prepare WhatsApp message
+	dt := &whatsauth.TextMessage{
+		To:      phoneNumber,
+		IsGroup: false,
+		Messages: "Hi! Your login password is: *" + password + "*.\n\n" +
+			"Enter this password on the STP page within 4 minutes. The password will expire after that. " +
+			"To copy the password, press and hold the password.",
+	}
 
-    // Send WhatsApp message
-    _, resp, err := atapi.PostStructWithToken[model.Response]("Token", config.WAAPIToken, dt, config.WAAPIMessage)
-    if err != nil {
+	// Send WhatsApp message
+	_, resp, err := atapi.PostStructWithToken[model.Response]("Token", config.WAAPIToken, dt, config.WAAPIMessage)
+	if err != nil {
 		resp.Info = "message: unauthorized"
 		resp.Response = err.Error()
 		at.WriteJSON(respw, http.StatusUnauthorized, resp)
 		return
-    }
+	}
 
 }
-
-
-
-

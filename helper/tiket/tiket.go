@@ -1,9 +1,9 @@
 package tiket
 
 import (
-	"github.com/gocroot/helper/atdb"
-	"github.com/gocroot/helper/lms"
-	"github.com/gocroot/helper/waktu"
+	"github.com/AkuLaper/akulaperbe/helper/atdb"
+	"github.com/AkuLaper/akulaperbe/helper/lms"
+	"github.com/AkuLaper/akulaperbe/helper/waktu"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"

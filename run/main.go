@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/gocroot/route"
+	"github.com/AkuLaper/akulaperbe/route"
 )
 
 func main() {

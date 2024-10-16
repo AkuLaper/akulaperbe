@@ -1,4 +1,4 @@
-module github.com/gocroot
+module github.com/AkuLaper/akulaperbe
 
 go 1.22.5
 

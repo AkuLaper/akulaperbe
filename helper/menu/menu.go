@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/gocroot/helper/atdb"
-	"github.com/gocroot/helper/tiket"
+	"github.com/AkuLaper/akulaperbe/helper/atdb"
+	"github.com/AkuLaper/akulaperbe/helper/tiket"
 	"github.com/whatsauth/itmodel"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"

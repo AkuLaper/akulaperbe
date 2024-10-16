@@ -3,7 +3,7 @@ package controller
 import (
 	"errors"
 
-	"github.com/gocroot/model"
+	"github.com/AkuLaper/akulaperbe/model"
 )
 
 func GetMemberByAttributeInProject(project model.Project, attribute string, value string) (*model.MenuItem, error) {

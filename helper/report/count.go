@@ -1,6 +1,6 @@
 package report
 
-import "github.com/gocroot/model"
+import "github.com/AkuLaper/akulaperbe/model"
 
 type PhoneNumberInfo struct {
 	Count float64
