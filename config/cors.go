@@ -9,6 +9,7 @@ var Origins = []string{
 	"https://kb.pd.my.id",
 	"https://go.biz.id",
 	"https://jual.in.my.id",
+	"https://akulaper.github.io",
 }
 
 // Fungsi untuk memeriksa apakah origin diizinkan
