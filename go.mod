@@ -7,6 +7,7 @@ require (
 	github.com/GoogleCloudPlatform/functions-framework-go v1.8.1
 	github.com/RadhiFadlillah/go-sastrawi v0.0.0-20200621225627-3dd6e0e1ac00
 	github.com/aiteung/atdb v0.1.7
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/go-playground/webhooks v5.17.0+incompatible
 	github.com/google/go-github/v59 v59.0.0
 	github.com/kimseokgis/backend-ai v0.0.0-20240731161356-5480aad28fd3
@@ -25,7 +26,6 @@ require (
 	cloud.google.com/go/auth/oauth2adapt v0.2.3 // indirect
 	cloud.google.com/go/compute/metadata v0.5.0 // indirect
 	github.com/cloudevents/sdk-go/v2 v2.15.2 // indirect
-	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
